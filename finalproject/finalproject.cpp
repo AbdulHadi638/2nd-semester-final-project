@@ -4,7 +4,7 @@
 #include <ctime>
 using namespace std;
 
-////`````````````````SAIF````````````````````````////
+////`````````````````SAIF```````````````````````` ////
 
 // === Game Configuration Constants ===
 const int screenwdth = 70;     // Width of the game screen
@@ -132,10 +132,10 @@ void showMenu()
     cout << "===== CAR GAME =====\n\n";
     cout << "1. Play\n";
     cout << "2. Exit\n\n";
-    cout << "Select option: ";
+    cout << "Select your  option: ";
 }
 
-// ********** Main gameplay loop *******
+// ********** Main gameplay loop  *******
 void play()
 {
     system("cls");
@@ -265,6 +265,7 @@ int main()
             break;
         }
     }
+
 
     return 0;
 
